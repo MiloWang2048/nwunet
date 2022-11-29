@@ -1,0 +1,23 @@
+{
+  "name": "@milowang/nwunet",
+  "description": "NWUNET一键连接工具",
+  "version": "1.0.0",
+  "bin": {
+    "nwunet": "index.cjs"
+  },
+  "devDependencies": {},
+  "author": "milowang",
+  "keywords": [
+    "nwu",
+    "nwunet"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^9.4.1",
+    "cron": "^2.1.0",
+    "selenium-webdriver": "^4.6.1"
+  },
+  "engines": {
+    "node": ">= 14.0.0"
+  }
+}
