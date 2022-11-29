@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 const { Builder, By, until } = require("selenium-webdriver");
 const edge = require("selenium-webdriver/edge");
 const path = require("path");

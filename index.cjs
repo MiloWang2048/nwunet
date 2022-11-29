@@ -1,10 +1,14 @@
+#!/usr/bin/env node
+
 const { login } = require("./login.cjs");
 const CronJob = require("cron").CronJob;
 
 const { Command } = require("commander");
 const program = new Command();
 
-program.name("nwunet").description("NWUNET 自动连接工具").version("1.0.0");
+const pkg = require("./package.json");
+
+program.name("nwunet").description(pkg.description).version(pkg.version);
 
 program
   .requiredOption("-u, --username <string>", "nwunet username")

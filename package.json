@@ -1,9 +1,13 @@
 {
   "name": "@milowang/nwunet",
-  "description": "NWUNET一键连接工具",
-  "version": "1.0.0",
+  "description": "NWUNET 一键连接工具",
+  "version": "1.0.3",
   "bin": {
     "nwunet": "index.cjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MiloWang2048/nwunet.git"
   },
   "devDependencies": {},
   "author": "milowang",
